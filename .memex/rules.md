@@ -28,3 +28,57 @@ Use stock photos from unsplash where appropriate, only valid URLs you know exist
 - Default to running the project in the background (don't use blocking shell commands).
 - If the user asks you to make a change, first read and understand the code before making changes.
 - If you are unsure of something, ask the user for clarification.
+
+# Deployment to Netlify
+
+This Next.js project deploys as a static site to Netlify.
+
+## Prerequisites
+- Netlify CLI: `npm install -g netlify-cli`
+- Netlify account (create at [netlify.com](https://www.netlify.com/) if needed)
+- Authenticate CLI: `netlify login`
+
+## Configuration
+1. **Next.js Configuration**
+   ```js
+   // next.config.js
+   module.exports = {
+     output: 'export',
+     eslint: { ignoreDuringBuilds: true },
+     images: { unoptimized: true }
+   };
+   ```
+
+2. **Netlify Configuration**
+   ```toml
+   # netlify.toml
+   [build]
+     command = "npm run build"
+     publish = "out"
+   ```
+
+3. **Plugin Note**: For static export (our configuration), the Netlify Next.js plugin is NOT required.
+
+## Deploy
+
+### Option 1: Using Account Slug (Non-interactive)
+```bash
+# First find your account slug: run "netlify status" and look for "Teams:"
+# Then create site non-interactively:
+netlify sites:create --account-slug YOUR-ACCOUNT-SLUG --name="your-site-name"
+
+# Build and deploy
+npm run build && netlify deploy --prod --dir=out
+```
+
+### Option 2: Using Popup Terminal (Interactive)
+For first-time setup, run the interactive site creation in a popup terminal:
+```bash
+# On macOS (creates site interactively)
+open -a Terminal.app -n -e "netlify sites:create"
+
+# Then in main terminal, build and deploy
+npm run build && netlify deploy --prod --dir=out
+```
+
+This popup approach allows you to respond to interactive prompts while keeping your main workflow automation intact.
