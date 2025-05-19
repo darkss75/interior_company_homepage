@@ -16,21 +16,21 @@ interface SlideProps {
 
 const slides: SlideProps[] = [
   {
-    image: "https://images.unsplash.com/photo-1600585152220-90363fe7e115",
+    image: "/images/hero-1.jpg",
     title: "사람의 미와 공간의 조화",
     subtitle: "아파트 인테리어 전문 기업 디자인크림",
     buttonText: "상담 신청하기",
     buttonLink: "/contact"
   },
   {
-    image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7",
+    image: "/images/hero-2.jpg",
     title: "고급스런 디자인으로 당신의 공간을",
     subtitle: "특별한 공간 디자인을 찾아드립니다",
     buttonText: "상담 신청하기",
     buttonLink: "/contact"
   },
   {
-    image: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace",
+    image: "/images/hero-3.jpg",
     title: "고급스러운 디자인 스타일",
     subtitle: "아파트 인테리어 전문 기업",
     buttonText: "상담 신청하기",

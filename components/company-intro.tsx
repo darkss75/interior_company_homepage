@@ -13,7 +13,7 @@ const CompanyIntro = () => {
           <div className="lg:col-span-5 relative">
             <div className="relative h-[500px] w-full rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="https://images.unsplash.com/photo-1618220179428-22790b461013"
+                src="/images/company-intro.jpg"
                 alt="디자인크림 인테리어 스튜디오"
                 fill
                 className="object-cover"

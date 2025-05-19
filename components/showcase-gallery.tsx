@@ -22,7 +22,7 @@ const galleryItems: GalleryItemProps[] = [
     id: "gallery-1",
     title: "모던 미니멀 아파트",
     description: "32평형 아파트의 모던 미니멀 인테리어",
-    image: "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92",
+    image: "/images/gallery-1.jpg",
     category: "모던",
     size: "32평"
   },
@@ -30,7 +30,7 @@ const galleryItems: GalleryItemProps[] = [
     id: "gallery-2",
     title: "내추럴 감성의 공간",
     description: "25평형 아파트의 내추럴 스타일 인테리어",
-    image: "https://images.unsplash.com/photo-1615529151169-7b1ff50dc7f2",
+    image: "/images/gallery-2.jpg",
     category: "내추럴",
     size: "25평"
   },
@@ -38,7 +38,7 @@ const galleryItems: GalleryItemProps[] = [
     id: "gallery-3",
     title: "클래식한 노블함",
     description: "45평형 아파트의 클래식 노블 인테리어",
-    image: "https://images.unsplash.com/photo-1618219944342-824e40a13285",
+    image: "/images/gallery-3.jpg",
     category: "클래식",
     size: "45평"
   },
@@ -46,7 +46,7 @@ const galleryItems: GalleryItemProps[] = [
     id: "gallery-4",
     title: "우드 포인트 거실",
     description: "36평형 아파트의 우드 포인트 인테리어",
-    image: "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92",
+    image: "/images/gallery-4.jpg",
     category: "모던",
     size: "36평"
   },
@@ -54,7 +54,7 @@ const galleryItems: GalleryItemProps[] = [
     id: "gallery-5",
     title: "그레이 톤 침실",
     description: "28평형 아파트의 그레이 침실 인테리어",
-    image: "https://images.unsplash.com/photo-1616594039964-ae9021a400a0",
+    image: "/images/gallery-5.jpg",
     category: "모던",
     size: "28평"
   },
@@ -62,7 +62,7 @@ const galleryItems: GalleryItemProps[] = [
     id: "gallery-6",
     title: "모노톤 주방",
     description: "34평형 아파트의 모노톤 주방 인테리어",
-    image: "https://images.unsplash.com/photo-1600607686527-6fb886090705",
+    image: "/images/gallery-6.jpg",
     category: "모던",
     size: "34평"
   },
