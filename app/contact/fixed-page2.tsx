@@ -80,7 +80,7 @@ export default function ContactPage() {
       {/* Hero Section */}
       <div className="relative h-[30vh] md:h-[40vh] overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1618219740975-d40978bb7378"
+          src="/images/hero-bg.jpg"
           alt="문의하기"
           fill
           className="object-cover"

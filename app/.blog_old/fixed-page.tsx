@@ -24,7 +24,7 @@ const blogPosts: BlogPost[] = [
     date: "2024.04.15",
     readTime: "5ubd84",
     category: "ud2b8ub80cub4dc",
-    image: "https://images.unsplash.com/photo-1615876234886-fd9a39fda97f",
+    image: "/images/hero-bg.jpg",
     url: "https://blog.naver.com/laillic"
   },
   {
@@ -34,7 +34,7 @@ const blogPosts: BlogPost[] = [
     date: "2024.04.01",
     readTime: "8ubd84",
     category: "uc2e0ucd95 uc778ud14cub9acuc5b4",
-    image: "https://images.unsplash.com/photo-1617098474202-0d0d7f3d4046",
+    image: "/images/hero-bg.jpg",
     url: "https://blog.naver.com/laillic"
   },
   {
@@ -44,7 +44,7 @@ const blogPosts: BlogPost[] = [
     date: "2024.03.20",
     readTime: "6ubd84",
     category: "ucf5cub85c uac00uc774ub4dc",
-    image: "https://images.unsplash.com/photo-1618219944342-824e40a13285",
+    image: "/images/hero-bg.jpg",
     url: "https://blog.naver.com/laillic"
   },
   {
@@ -54,7 +54,7 @@ const blogPosts: BlogPost[] = [
     date: "2024.03.10",
     readTime: "7ubd84",
     category: "uacbduacc4",
-    image: "https://images.unsplash.com/photo-1600210492493-0946911123ea",
+    image: "/images/hero-bg.jpg",
     url: "https://blog.naver.com/laillic"
   },
   {
@@ -64,7 +64,7 @@ const blogPosts: BlogPost[] = [
     date: "2024.02.28",
     readTime: "10ubd84",
     category: "uc18cuc7ac uac00uc774ub4dc",
-    image: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace",
+    image: "/images/hero-bg.jpg",
     url: "https://blog.naver.com/laillic"
   },
   {
@@ -74,7 +74,7 @@ const blogPosts: BlogPost[] = [
     date: "2024.02.15",
     readTime: "5ubd84",
     category: "uc2a4ud0c0uc77c",
-    image: "https://images.unsplash.com/photo-1615529151169-7b1ff50dc7f2",
+    image: "/images/hero-bg.jpg",
     url: "https://blog.naver.com/laillic"
   }
 ];
@@ -94,7 +94,7 @@ export default function BlogPage() {
       {/* Hero */}
       <div className="relative h-[30vh] md:h-[40vh] overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1618220179428-22790b461013"
+          src="/images/hero-bg.jpg"
           alt="ube14ub85cuadf8"
           fill
           className="object-cover"
